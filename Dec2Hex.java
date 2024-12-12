@@ -28,7 +28,7 @@ class Dec2Hex {
             }
 
             System.out.println("Hexadecimal representation is: " + hexadecimal);
-        
+
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Error: No input argument provided.");
         } catch (NumberFormatException e) {
